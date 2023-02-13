@@ -158,14 +158,14 @@ nav ul li a.active{
         left: -300px;
         top: 0;
         z-index: 999;
-        width: 280px;
+        width: 200px;
         height:100vh ;
         background-color: #fefefe;
         transition: 0.2s;
         box-shadow: 2px 0 20px 0 rgba(0, 0, 0, .05);
     }
     #nav_check:checked ~ nav{
-        left: 0;
+        left: -21px;
     }
     nav .logo{
         display: block;
