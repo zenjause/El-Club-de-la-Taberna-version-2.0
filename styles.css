@@ -198,9 +198,10 @@ nav ul li a.active{
 /*iniciando el main*/
 
 .conteudo{
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 3.5rem;
     padding-top: 3rem;
+    position: fixed;
 }
 .carrosel {
     font-family: "Verdana", sans-serif;
@@ -349,7 +350,9 @@ nav ul li a.active{
     background-size: contain;
     background-repeat: repeat;
 }
-
+.sub-title{
+    margin-top: 250px;
+}
 .title-secundary{
     margin-top:80px ;
     text-align: center;
@@ -358,7 +361,7 @@ nav ul li a.active{
 /*multimedia*/
 
 .contain-media{
-    margin-top:20px;
+    margin-top:10px;
     padding-top: 20px;
 }
 
