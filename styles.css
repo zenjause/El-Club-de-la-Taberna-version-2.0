@@ -380,7 +380,7 @@ nav ul li a.active{
 html,
 body {
     height: 100%;
-    /*overflow: hidden;*/
+    overflow: auto;
 }
 
 .productos {
