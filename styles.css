@@ -106,6 +106,14 @@ header{
     width: 120px;
     margin-top: 8px;
 }
+.presentacion-combo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.presentacion-combo img{
+    width: 28%;
+}
 nav .logo{
     display: none;
 }
@@ -201,7 +209,6 @@ nav ul li a.active{
     margin-top: 2rem;
     margin-left: 3.5rem;
     padding-top: 3rem;
-    position: fixed;
 }
 .carrosel {
     font-family: "Verdana", sans-serif;
@@ -351,7 +358,7 @@ nav ul li a.active{
     background-repeat: repeat;
 }
 .sub-title{
-    margin-top: 250px;
+    margin-top: 2rem;
 }
 .title-secundary{
     margin-top:80px ;
