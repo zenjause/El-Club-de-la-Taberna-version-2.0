@@ -16,26 +16,31 @@ body{
     box-sizing: border-box;           
 }
 .fondo-inicio{
-    background-image: url(./recursos-para-pagina/fondo.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    position: absolute;
 }
 .portada{
-    display: grid;
-    grid-area: 2/2/2/2;
-    color: white;
+    width: 100%;
+    
     
 }
+.img-portada{
+    width: 100%;
+    position: fixed;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
 .over-title{
+    margin: 10rem;
+    padding: 5rem;
     font-size: 3rem;
 }
+
 
 .principal{
     display: flex;
@@ -54,7 +59,7 @@ body{
     border: none;
     font-size: 1.3rem;
     padding: 1rem 4rem 1rem 3rem;
-    
+    margin-top: 5rem;
     
     
     
@@ -500,4 +505,17 @@ body {
 }
 .whatsapp-icon {
     margin-top:13px;
+}
+
+
+@media only screen and (max-width: 426px){
+    .over-title{
+        margin: 1rem;
+        padding: 4rem;
+    }
+}
+@media only screen and (max-width: 321px){
+    .over-title{
+        padding: 2rem;
+    }
 }
